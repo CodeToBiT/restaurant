@@ -1,0 +1,9 @@
+@mixin card($radius: 0.25rem) {
+  background-color: $white;
+  border-radius: $radius;
+  padding: 1.5rem;
+  height: 100%;
+  word-break: break-all;
+  display: flex;
+  flex-direction: column;
+}
